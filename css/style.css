@@ -670,3 +670,15 @@ textarea {
   color: #ffffff;
   padding: 8px 16px;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen (min-width: 768px) {
+}
+
+@media screen (min-width: 1158px) {
+}
