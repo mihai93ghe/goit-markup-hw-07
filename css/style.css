@@ -170,6 +170,7 @@ h3 {
   display: flex;
   justify-content: center;
   background-color: var(--secondary-bkg-color);
+  flex-direction: column;
 }
 
 .footer-section {
@@ -332,8 +333,7 @@ h3 {
 }
 
 .offer-section {
-  display: flex;
-  justify-content: center;
+  display: none;
 }
 
 .offer-images {
@@ -349,6 +349,15 @@ h3 {
   justify-content: center;
   flex-wrap: wrap;
   margin-left: -24px;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .team-card-item {
@@ -417,14 +426,7 @@ h3 {
 }
 
 .features-icon-list {
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background-color: var(--secondary-bkg-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 8px;
+  display: none;
 }
 
 .social-media-card {
@@ -709,7 +711,36 @@ img {
   .mobile-logo {
     display: none;
   }
+
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -24px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
+  .features-icon-list {
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: var(--secondary-bkg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .offer-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -24px;
+    flex-direction: row;
+  }
 }
