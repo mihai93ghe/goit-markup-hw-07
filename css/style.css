@@ -724,6 +724,24 @@ img {
   display: none;
 }
 
+.js-menu-container.is-open {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1;
+  padding: 40px 31px;
+  height: 100%;
+}
+
+.js-close-menu {
+  border: none;
+  background: none;
+  align-self: self-end;
+}
+
 @media screen and (min-width: 1158px) {
   .features-icon-list {
     border-radius: 4px;
