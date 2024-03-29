@@ -720,6 +720,10 @@ img {
   }
 }
 
+.js-menu-container {
+  display: none;
+}
+
 @media screen and (min-width: 1158px) {
   .features-icon-list {
     border-radius: 4px;
@@ -742,5 +746,18 @@ img {
     flex-wrap: wrap;
     margin-left: -24px;
     flex-direction: row;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    padding: 0 15px;
+    flex-wrap: wrap;
+    margin: 0 auto;
   }
 }
