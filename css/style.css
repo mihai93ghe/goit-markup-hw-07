@@ -637,8 +637,9 @@ textarea {
 .subscribe-label {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 24px;
+  flex-direction: column;
 }
 
 .subscribe-input {
@@ -861,5 +862,12 @@ img {
     align-items: flex-start;
     height: 312px;
     flex-wrap: wrap;
+  }
+
+  .subscribe-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
   }
 }
